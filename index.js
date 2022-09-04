@@ -52,8 +52,8 @@ else{
   console.log("the weather is good");
 };*/
 
-//lets add more logical operator
-let temp = 15;//temperature
+//lets add more logical operator. just uncomment this code below
+/*let temp = 15;//temperature
 let sunny = true;//boolean
 //you can link more than one operator
 if(temp > 0 && temp > 30 && sunny){
@@ -61,4 +61,25 @@ if(temp > 0 && temp > 30 && sunny){
 }
 else{
   console.log("the weather is bad");
+};*/
+
+//NOT ! operator
+//the NOT ! operator, usually used to reverse a condition's of boolean value
+//true to false, or false to true
+let temp = 15;
+let sunny = true;
+
+if(!(temp > 0)){
+  console.log("it's cold outside");
+}
+else{
+  console.log("it's warm outside");
+}
+
+if(!sunny){
+  console.log("it's cloudy outside");
+}
+
+else{
+  console.log("it's sunny outside");
 };
